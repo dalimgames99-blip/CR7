@@ -1,0 +1,22 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldSplit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7a0c1e"/>
+      <stop offset="50%" stop-color="#7a0c1e"/>
+      <stop offset="50%" stop-color="#0b3d2e"/>
+      <stop offset="100%" stop-color="#0b3d2e"/>
+    </linearGradient>
+    <radialGradient id="glow3" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#e6c878" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e6c878" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#17130f"/>
+  <circle cx="200" cy="185" r="190" fill="url(#glow3)"/>
+  <path d="M200,60 L305,95 V210 C305,290 260,335 200,360 C140,335 95,290 95,210 V95 Z"
+        fill="url(#shieldSplit)" stroke="#e6c878" stroke-width="6"/>
+  <path d="M200,60 V360" stroke="#e6c878" stroke-width="3" opacity="0.6"/>
+  <circle cx="200" cy="185" r="58" fill="#f2e7cd"/>
+  <text x="200" y="212" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="90" fill="#17130f">7</text>
+  <path d="M200,82 l7,15 16,2 -12,12 3,16 -14,-8 -14,8 3,-16 -12,-12 16,-2 Z" fill="#e6c878"/>
+</svg>

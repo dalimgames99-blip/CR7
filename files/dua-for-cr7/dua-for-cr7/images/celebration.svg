@@ -1,0 +1,26 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow1" cx="50%" cy="42%" r="65%">
+      <stop offset="0%" stop-color="#e6c878" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#e6c878" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#0b3d2e"/>
+  <circle cx="200" cy="190" r="190" fill="url(#glow1)"/>
+  <g stroke="#e6c878" stroke-width="3" opacity="0.45">
+    <line x1="200" y1="190" x2="200" y2="40"/>
+    <line x1="200" y1="190" x2="332" y2="100"/>
+    <line x1="200" y1="190" x2="360" y2="190"/>
+    <line x1="200" y1="190" x2="332" y2="290"/>
+    <line x1="200" y1="190" x2="68" y2="290"/>
+    <line x1="200" y1="190" x2="40" y2="190"/>
+    <line x1="200" y1="190" x2="68" y2="100"/>
+  </g>
+  <circle cx="200" cy="140" r="26" fill="#17130f"/>
+  <path d="M200,166 L196,255" stroke="#17130f" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <path d="M200,178 L124,132" stroke="#17130f" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <path d="M200,178 L278,132" stroke="#17130f" stroke-width="20" stroke-linecap="round" fill="none"/>
+  <path d="M197,252 L145,336" stroke="#17130f" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <path d="M197,252 L258,318" stroke="#17130f" stroke-width="22" stroke-linecap="round" fill="none"/>
+  <text x="200" y="383" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="24" fill="#e6c878" letter-spacing="3">SIUUU!</text>
+</svg>

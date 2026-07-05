@@ -1,0 +1,21 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow4" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#e6c878" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#e6c878" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#0c0a08"/>
+  <circle cx="200" cy="180" r="190" fill="url(#glow4)"/>
+  <circle cx="200" cy="180" r="120" fill="none" stroke="#2b2620" stroke-width="2"/>
+  <g font-family="Arial Black, Arial, sans-serif" font-size="15" fill="#e6c878" text-anchor="middle">
+    <circle cx="200" cy="60"  r="15" fill="#7a0c1e"/><text x="200" y="65">06</text>
+    <circle cx="304" cy="120" r="15" fill="#0b3d2e"/><text x="304" y="125">10</text>
+    <circle cx="304" cy="240" r="15" fill="#7a0c1e"/><text x="304" y="245">14</text>
+    <circle cx="200" cy="300" r="15" fill="#0b3d2e"/><text x="200" y="305">18</text>
+    <circle cx="96"  cy="240" r="15" fill="#7a0c1e"/><text x="96"  y="245">22</text>
+    <circle cx="96"  cy="120" r="15" fill="#0b3d2e"/><text x="96"  y="125">26</text>
+  </g>
+  <text x="200" y="172" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="54" fill="#f2e7cd">6</text>
+  <text x="200" y="202" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#cfe3d8" letter-spacing="2">WORLD CUPS</text>
+</svg>

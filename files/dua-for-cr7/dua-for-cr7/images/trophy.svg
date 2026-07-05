@@ -1,0 +1,28 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cupGold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e6c878"/>
+      <stop offset="100%" stop-color="#c89b3c"/>
+    </linearGradient>
+    <radialGradient id="glow2" cx="50%" cy="38%" r="60%">
+      <stop offset="0%" stop-color="#e6c878" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#e6c878" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="#7a0c1e"/>
+  <circle cx="200" cy="180" r="190" fill="url(#glow2)"/>
+  <path d="M150,90 h100 v70 c0,55 -22,80 -50,88 c-28,-8 -50,-33 -50,-88 Z" fill="url(#cupGold)" stroke="#5c0916" stroke-width="4"/>
+  <path d="M150,100 c-30,0 -46,20 -46,44 c0,26 20,42 44,44" fill="none" stroke="url(#cupGold)" stroke-width="10"/>
+  <path d="M250,100 c30,0 46,20 46,44 c0,26 -20,42 -44,44" fill="none" stroke="url(#cupGold)" stroke-width="10"/>
+  <rect x="185" y="248" width="30" height="34" fill="url(#cupGold)" stroke="#5c0916" stroke-width="3"/>
+  <path d="M150,282 h100 l-12,26 h-76 Z" fill="url(#cupGold)" stroke="#5c0916" stroke-width="3"/>
+  <text x="200" y="168" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-size="46" fill="#5c0916">7</text>
+  <g fill="#e6c878">
+    <path d="M120,332 l4,9 10,1 -7,7 2,10 -9,-5 -9,5 2,-10 -7,-7 10,-1 Z"/>
+    <path d="M155,340 l4,9 10,1 -7,7 2,10 -9,-5 -9,5 2,-10 -7,-7 10,-1 Z"/>
+    <path d="M190,332 l4,9 10,1 -7,7 2,10 -9,-5 -9,5 2,-10 -7,-7 10,-1 Z"/>
+    <path d="M225,340 l4,9 10,1 -7,7 2,10 -9,-5 -9,5 2,-10 -7,-7 10,-1 Z"/>
+    <path d="M260,332 l4,9 10,1 -7,7 2,10 -9,-5 -9,5 2,-10 -7,-7 10,-1 Z"/>
+    <path d="M295,340 l4,9 10,1 -7,7 2,10 -9,-5 -9,5 2,-10 -7,-7 10,-1 Z"/>
+  </g>
+</svg>
